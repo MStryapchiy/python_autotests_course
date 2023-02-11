@@ -7,7 +7,7 @@ try:
     browser.get("http://suninjuly.github.io/huge_form.html")
     elements = browser.find_elements(By.CSS_SELECTOR, "input")
     for element in elements:
-        element.send_keys("Head og space program")
+        element.send_keys("Head of space program")
 
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
